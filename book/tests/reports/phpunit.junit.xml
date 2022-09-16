@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="book" tests="3" assertions="5" errors="0" failures="1" skipped="0" time="0.016566">
+    <testsuite name="TestCreate" file="C:\wamp64\www\wp-local\wp-content\plugins\book\tests\test-API.php" tests="3" assertions="5" errors="0" failures="1" skipped="0" time="0.016566">
+      <testcase name="testGetBooksWrongRequest" class="TestCreate" classname="TestCreate" file="C:\wamp64\www\wp-local\wp-content\plugins\book\tests\test-API.php" line="6" assertions="1" time="0.004941">
+        <failure type="PHPUnit\Framework\ExpectationFailedException">TestCreate::testGetBooksWrongRequest
+Failed asserting that '{"success":false}' is false.
+
+C:\wamp64\www\wp-local\wp-content\plugins\book\tests\test-API.php:8
+phpvfscomposer://C:\Users\WinAdmin\AppData\Roaming\Composer\vendor\phpunit\phpunit\phpunit:60
+</failure>
+      </testcase>
+      <testcase name="testGetVals" class="TestCreate" classname="TestCreate" file="C:\wamp64\www\wp-local\wp-content\plugins\book\tests\test-API.php" line="11" assertions="1" time="0.006534"/>
+      <testcase name="testEmptyVals" class="TestCreate" classname="TestCreate" file="C:\wamp64\www\wp-local\wp-content\plugins\book\tests\test-API.php" line="26" assertions="3" time="0.005091"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
